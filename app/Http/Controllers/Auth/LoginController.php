@@ -61,7 +61,7 @@ class LoginController extends Controller
                //      session([$key => $value]);
                // }
                
-               return response()->json(['message' => "Todo Lindo Prro", 
+               return response()->json(['message' => "Has sido conectado al servidor", 
                                  'errors' => false, 
                                  'type' => 'check']);
                //redirect('/home');

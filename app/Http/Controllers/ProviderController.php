@@ -19,7 +19,7 @@ class ProviderController extends Controller
     		'mail' => 'required|unique:providers|email',
     	], 
     	[
-    		'name.required' => 'el campo nombre es requerido',
+    		'name.required' => 'El campo nombre es requerido',
     		'address.max:180' => 'Sobrepasas el limite de caracteres en la dirección',
     		'phone.required' => 'Completa el campo Teléfono',
     		'phone.numeric' => 'El Telefono sólo puede contener numeros',

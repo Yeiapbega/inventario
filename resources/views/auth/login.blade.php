@@ -15,7 +15,6 @@
 		</div>
 	</errors>
 	<hr>
-	asd
 	<div class="auth-input mx-2">
 		<div class="form-group d-flex mb-2">
 			<i class="fa fa-user i-auth box-color-light"></i>			

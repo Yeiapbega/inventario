@@ -35,13 +35,14 @@
     </head>
 <body class="animated fadeIn">
     <bg-login></bg-login>   
-    <img src="{{ asset('src/box_1.png') }}" class="img-fluid bg-box">   
+    {{-- <img src="{{ asset('src/box_1.png') }}" class="img-fluid bg-box">       --}}
     @include('include.widget')
-    <div class="content-body">
-        
-    </div>
-
-    @yield('content')
+    @if(Auth::check())
+        @include('include.nav')
+    @endif
+    <div id="main-contain">
+        @yield('content')
+    </div>     
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     @yield('script')
     @yield('scriptShow')

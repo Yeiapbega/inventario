@@ -34,7 +34,7 @@ class ProviderController extends Controller
     		'address' => $data['address'],
     		'phone' => $data['phone'],
     		'mail' => $data['mail'],
-    		'state' => 't',
+    		'state' => 'T',
     		// 'company' => $_SESSION['company'],
     	]);
     }

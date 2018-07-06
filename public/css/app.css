@@ -2552,7 +2552,7 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 body
 {
-	padding-top: 27px;
+	padding-top: 25px;
 	font-family: 'Quicksand', sans-serif;	
 	color: #000;
 	/*padding-right: 5px;*/
@@ -2715,7 +2715,7 @@ container-auth
 
 .box-color-light
 {
-	background-color: #12a3bb !important;
+	background-color: #1890a2 !important;
 }
 
 .box-color

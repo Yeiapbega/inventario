@@ -1,9 +1,9 @@
 @extends('main')
-@section('title', 'Login')
+@section('title', 'Dashboard')
 
 @section('content')
 holi 
-<a href="{{ url('logout') }}">salir</a>
+<a href="{{ route('logout') }}">salir</a>
 <br>
 {{-- {{ session()->get('user_dni') }} --}}
 {{ Auth::user()->rol_id }}
